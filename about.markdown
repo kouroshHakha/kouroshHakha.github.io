@@ -4,15 +4,24 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am a 3rd year PhD student at UC Berkeley. I am co-advised by Vladimir Stojanovic and Pieter
+Abbeel. My main research interest is Unsupervised Learning, Reinforcement Learning and
+Optimization. My current research lies at the intersection of AI and Integrated Circuit Design
+. In this area we try to incorporate/build Machine Learning tools to automate analog circuit
+design to realize “no human in the loop” design flows. This demands sample efficient machine
+learning algorithms due to its difficulty to obtain samples in this domain.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I received my Bachelors from Sharif University of Technology, Iran in Electrical Engineering. I
+was awarded the best thesis award for my work on building an energy efficient remote ECG monitoring
+system. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+In my journey in PhD I realized I am very interested in deep learning plus my background in
+optimization, linear algebra and probability and statistics was pretty solid, so I decided to
+work on something that leverages my undergrad knowledge and build an automation system that
+designers really care about.  
+
+I am very much into entrepreneurship and startups. Currently, I am interning at a venture, spun out 
+of UC Berkeley, called BlueCheetah Analog Design Inc, where we develop analog IPs using our open 
+source, agile, hardware design platform. 
 
 
-[jekyll-organization]: https://github.com/jekyll
