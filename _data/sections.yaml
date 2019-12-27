@@ -1,0 +1,6 @@
+- name: About
+  content: about.markdown
+- name: Publications
+  content: _posts
+- name: CV
+  content: cv.html

@@ -23,5 +23,3 @@ designers really care about.
 I am very much into entrepreneurship and startups. Currently, I am interning at a venture, spun out 
 of UC Berkeley, called BlueCheetah Analog Design Inc, where we develop analog IPs using our open 
 source, agile, hardware design platform. 
-
-
