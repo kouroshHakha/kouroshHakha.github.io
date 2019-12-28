@@ -1,5 +1,5 @@
 - name: About
-  content: about.markdown
+  content: about.md
 - name: Publications
   content: _posts
 - name: CV
