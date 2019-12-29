@@ -20,25 +20,32 @@ layout: default
   </div>
 
   {%- if site.posts.size > 0 -%}
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-    <li>
-      <h3 id="post_title">{{post.title | escape}}</h3>
-      <h2>{{post.authors | escape}}</h2>
-      <h1>{{post.event | escape}}</h1>
-      {{ post.excerpt }}
-      {%- if post.arxiv -%}
-        <a style="text-align: left" href={{post.arxiv}} target="_blank">arxiv</a>
-      {%- endif -%}
-      {%- if post.blog -%}
-      <a style="text-align: right" href={{post.blog}} target="_blank">blog</a>
-      {%- endif -%}
-      {%- if post.github -%}
-      <a href={{post.github}} target="_blank"><svg><use xlink:href="/assets/img/minima-social-icons.svg#github">github</use></svg></a>
-      {%- endif -%}
-    </li>
-    {%- endfor -%}
-  </ul>
+  <div style="overflow-y: scroll; height: 600px">
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        <h3 class="post_title">{{post.title | escape}}</h3>
+        <h1 class="post_publication">{{post.event | escape}}</h1>
+        <h2 class="post_author">{{post.authors | escape}}</h2>
+        <div class="post_excerpt">
+          {{ post.excerpt | markdownify }}
+        </div>
+
+        <ul class="post_sup_list">
+          {%- if post.arxiv -%}
+            <li class="post_sup_list"><a href={{post.arxiv}} target="_blank">arxiv</a></li>
+          {%- endif -%}
+          {%- if post.blog -%}
+            <li class="post_sup_list"><a href={{post.blog}} target="_blank">blog</a></li>
+          {%- endif -%}
+          {%- if post.github -%}
+            <li class="post_sup_list"><a href={{post.github}} target="_blank">code</a></li>
+          {%- endif -%}
+        </ul>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
 
   {%- endif -%}
 

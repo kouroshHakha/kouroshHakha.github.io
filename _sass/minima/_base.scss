@@ -228,6 +228,40 @@ ul.social-media-list {
   padding: 0;
 }
 
+/**
+ * Post/Publications
+ */
+
+h3.post_title {
+  text-align: center;
+  font-size: x-large;
+}
+
+h2.post_author {
+  text-align: center;
+  font-size: small;
+}
+
+h1.post_publication {
+  font-size: xx-small;
+  text-align: right;
+  border-bottom: 1px solid grey;
+}
+
+.post_excerpt {
+  text-align: justify ;
+}
+
+ul.post_sup_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.post_sup_list {
+  display: inline-block;
+  padding: 0 5px;
+}
 
 
 /**

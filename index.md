@@ -5,7 +5,11 @@
 layout: home
 title: About
 ---
-
+<div class="image-cropper">
+    <img class="wall_image" src="/assets/img/wall.JPG"
+         alt="personal pic"
+         style="float: right; margin-left: 10px;" />
+</div>
 I am a 3rd year PhD student at UC Berkeley. I am co-advised by Vladimir Stojanovic and Pieter
 Abbeel. My main research interest is Unsupervised Learning, Reinforcement Learning and
 Optimization. My current research lies at the intersection of AI and Integrated Circuit Design

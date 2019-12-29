@@ -100,7 +100,25 @@
   }
 }
 
+/**
+ * wall image
+ */
 
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-left: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img.wall_image {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
 
 /**
  * Site footer
