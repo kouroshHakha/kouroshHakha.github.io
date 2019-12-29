@@ -1,7 +1,5 @@
 ---
-layout: post
+layout: publications
 title: Publications
 permalink: /publications/
 ---
-
-This is a page for all publications.

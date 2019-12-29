@@ -11,7 +11,7 @@ Abbeel. My main research interest is Unsupervised Learning, Reinforcement Learni
 Optimization. My current research lies at the intersection of AI and Integrated Circuit Design
 . In this area we try to incorporate/build Machine Learning tools to automate analog circuit
 design to realize “no human in the loop” design flows. This demands sample efficient machine
-learning algorithms due to its difficulty to obtain samples in this domain.
+learning algorithms due to the difficulty of obtaining data.
 
 I received my Bachelors from Sharif University of Technology, Iran in Electrical Engineering. I
 was awarded the best thesis award for my work on building an energy efficient remote ECG monitoring
