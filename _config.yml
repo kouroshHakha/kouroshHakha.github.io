@@ -27,8 +27,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 socials:
-  twitter: https://twitter.com/CyrusHakha
+  google_scholar: https://scholar.google.com/citations?user=kub9RqMAAAAJ&hl=en
   github: https://github.com/kouroshHakha
+  twitter: https://twitter.com/CyrusHakha
   linkedin: https://www.linkedin.com/in/kourosh-hakhamaneshi-4816a58a/
   email: Kourosh_hakhamaneshi@berkeley.edu
 header_pages:
