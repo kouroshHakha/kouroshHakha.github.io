@@ -26,7 +26,7 @@ that leverages my undergrad knowledge and build an automation system that
 circuit designers really care about.  
  -->
 
-In the past I have interned at both startup companies (<a href="https://www.bcanalog.com/" target="_blank">BlueCheetah Analog Design Inc</a>) and industry (AI intel Labs).
+In the past I have interned at a startup called <a href="https://www.bcanalog.com/" target="_blank">BlueCheetah Analog Design Inc</a> and recently at AI intel Labs.
 <!--  am very much into entrepreneurship and startups. Currently, I am interning at a venture, spun out 
 of UC Berkeley, called 
 , where we develop analog IPs using our open 
